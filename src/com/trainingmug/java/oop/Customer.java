@@ -4,7 +4,7 @@ public class Customer {
     //state (data)
     //instance variables
     int id;
-    public String name;
+    String name;
     String email;
     String contactNo;
     int salary;
@@ -15,7 +15,7 @@ public class Customer {
 
     // constructors
     // no-arg
-    public Customer(){
+    Customer(){
         System.out.println("Customer() is called..");
         id = 1111;
         name = "Customer1";
@@ -44,7 +44,7 @@ public class Customer {
     1. without returntype without parameters
      */
 
-    public void displayCustomerDetails(){
+    void displayCustomerDetails(){
         System.out.println("Id : " + id);
         System.out.println("Name : " + name);
         System.out.println("E-mail : " + email);
